@@ -1,6 +1,12 @@
-# NortalTodo
+# Nortal Todo - practical course for beginners in Angular, TypeScript and rxjs
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.8.
+## Git workflow
+
+* (after initial clone) `git remote set-url origin {your-own-repo-address}` to link to your own repository
+* `git checkout -b {branch-name}` to create a new branch
+* `git add -A` will help you to add files to staging (to be attached to the next commit you make). Instead of -A you can add files individually by writing git status to see the list of files that have changed and getting name from there
+* `git commit -m "{message}"` to create a new commit
+* `git push` to get your stuff to the cloud
 
 ## Development server
 
