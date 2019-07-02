@@ -5,6 +5,7 @@
 ## Git workflow
 
 * (after initial clone) `git remote set-url origin {your-own-repo-address}` to link to your own repository
+* run `npm install` to install dependencies after cloning/forking
 * `git checkout -b {branch-name}` to create a new branch
 * `git add -A` will help you to add files to staging (to be attached to the next commit you make). Instead of -A you can add files individually by using `git status` to see the list of files that have changed and getting name from there
 * `git commit -m "{message}"` to create a new commit
