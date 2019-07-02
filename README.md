@@ -1,5 +1,7 @@
 # Nortal Todo - practical course for beginners in Angular, TypeScript and rxjs
 
+**e2e tests are not within the scope of this course** and failing 'is created' unit tests are expected at the beginning.
+
 ## Git workflow
 
 * (after initial clone) `git remote set-url origin {your-own-repo-address}` to link to your own repository
