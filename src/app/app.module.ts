@@ -4,15 +4,24 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './routing/app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { AuthModule } from './auth/auth.module';
+import { MockApiModule } from './mock-api/mock-api.module';
+import { CoreModule } from './core/core.module';
+import { HeaderComponent } from './core/header/header.component';
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    AuthModule,
+    MockApiModule,
+    CoreModule
   ],
   providers: [],
   bootstrap: [AppComponent]
